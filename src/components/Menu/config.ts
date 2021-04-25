@@ -12,10 +12,6 @@ const config: MenuEntry[] = [
     initialOpenState: true,
     items: [
       {
-        label: 'LP Migration',
-        href: '/migrate',
-      },
-      {
         label: 'Exchange',
         href: 'https://exchange.pancakeswap.finance/#/swap',
       },
@@ -23,85 +19,7 @@ const config: MenuEntry[] = [
         label: 'Liquidity',
         href: 'https://exchange.pancakeswap.finance/#/pool',
       },
-      {
-        label: 'V1 Liquidity (Old)',
-        href: '/pool',
-      },
     ],
-  },
-  {
-    label: 'Farms',
-    icon: 'FarmIcon',
-    href: 'https://pancakeswap.finance/farms',
-  },
-  {
-    label: 'Pools',
-    icon: 'PoolIcon',
-    href: 'https://pancakeswap.finance/pools',
-  },
-  {
-    label: 'Lottery',
-    icon: 'TicketIcon',
-    href: 'https://pancakeswap.finance/lottery',
-    status: {
-      text: 'WIN',
-      color: 'warning',
-    },
-  },
-  {
-    label: 'Collectibles',
-    icon: 'NftIcon',
-    href: 'https://pancakeswap.finance/nft',
-  },
-  {
-    label: 'Team Battle',
-    icon: 'TeamBattleIcon',
-    href: 'https://pancakeswap.finance/competition',
-  },
-  {
-    label: 'Teams & Profile',
-    icon: 'GroupsIcon',
-    items: [
-      {
-        label: 'Leaderboard',
-        href: 'https://pancakeswap.finance/teams',
-      },
-      {
-        label: 'Task Center',
-        href: 'https://pancakeswap.finance/profile/tasks',
-      },
-      {
-        label: 'Your Profile',
-        href: 'https://pancakeswap.finance/profile',
-      },
-    ],
-  },
-  {
-    label: 'Info',
-    icon: 'InfoIcon',
-    items: [
-      {
-        label: 'Overview',
-        href: 'https://pancakeswap.info',
-      },
-      {
-        label: 'Tokens',
-        href: 'https://pancakeswap.info/tokens',
-      },
-      {
-        label: 'Pairs',
-        href: 'https://pancakeswap.info/pairs',
-      },
-      {
-        label: 'Accounts',
-        href: 'https://pancakeswap.info/accounts',
-      },
-    ],
-  },
-  {
-    label: 'IFO',
-    icon: 'IfoIcon',
-    href: 'https://pancakeswap.finance/ifo',
   },
   {
     label: 'More',
@@ -110,10 +28,6 @@ const config: MenuEntry[] = [
       {
         label: 'Contact',
         href: 'https://docs.pancakeswap.finance/contact-us',
-      },
-      {
-        label: 'Voting',
-        href: 'https://voting.pancakeswap.finance',
       },
       {
         label: 'Github',
@@ -126,10 +40,6 @@ const config: MenuEntry[] = [
       {
         label: 'Blog',
         href: 'https://pancakeswap.medium.com',
-      },
-      {
-        label: 'Merch',
-        href: 'https://pancakeswap.creator-spring.com/',
       },
     ],
   },
