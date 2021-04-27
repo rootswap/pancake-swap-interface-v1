@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Text, Flex, Box, ErrorIcon, Button } from '@pancakeswap-libs/uikit'
+import { Text, Flex, Box, ErrorIcon, Button } from '@rootswap-libs/uikit'
 import Banner from './Banner'
 
 const MigrationV2 = () => {

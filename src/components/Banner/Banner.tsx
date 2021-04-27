@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Box, ExpandableLabel, Flex } from '@pancakeswap-libs/uikit'
+import { Box, ExpandableLabel, Flex } from '@rootswap-libs/uikit'
 import styled from 'styled-components'
 
 interface Props {

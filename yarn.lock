@@ -2122,19 +2122,6 @@
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
 
-"@pancakeswap-libs/uikit@^0.27.1":
-  version "0.27.1"
-  resolved "https://registry.yarnpkg.com/@pancakeswap-libs/uikit/-/uikit-0.27.1.tgz#56a6868f3d5a93996527d939a507fcf5bf08ab75"
-  integrity sha512-RWzFquD34udINnodokKYek6AJcjjo37U0fAZ48Q/jEoHUg1FB2ES34V/G+zFLqXEHIDWrzSTO3ujJyJDMs1iPw==
-  dependencies:
-    "@popperjs/core" "^2.9.2"
-    "@types/lodash" "^4.14.168"
-    "@types/styled-system" "^5.1.10"
-    lodash "^4.17.20"
-    react-popper "^2.2.5"
-    react-transition-group "^4.4.1"
-    styled-system "^5.1.5"
-
 "@pedrouid/iso-crypto@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@pedrouid/iso-crypto/-/iso-crypto-1.0.0.tgz#cf06b40ef3da3d7ca7363bd7a521ed59fa2fd13d"
@@ -2233,6 +2220,19 @@
     "@types/estree" "0.0.39"
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
+
+"@rootswap-libs/uikit@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@rootswap-libs/uikit/-/uikit-0.0.5.tgz#b790e142e85b954a72229399491a41f9f1248390"
+  integrity sha512-1FuyiR89LZlDEb6ojB3JenvI1cxbW94RMIAf/dDbup0PD3RVF8q3YRukcSMHdjjAO+BGMYel2RCto4MkqvwLzg==
+  dependencies:
+    "@popperjs/core" "^2.9.2"
+    "@types/lodash" "^4.14.168"
+    "@types/styled-system" "^5.1.10"
+    lodash "^4.17.20"
+    react-popper "^2.2.5"
+    react-transition-group "^4.4.1"
+    styled-system "^5.1.5"
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.1"
